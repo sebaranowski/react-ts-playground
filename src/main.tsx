@@ -4,6 +4,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
+import OverlayscrollbarsPage from './overlayscrollbars/OverlayscrollbarsPage.tsx'
 import App from './App.tsx'
 import './index.css'
 
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/overlayscrollbars",
+    element: <OverlayscrollbarsPage />,
   },
 ]);
 
